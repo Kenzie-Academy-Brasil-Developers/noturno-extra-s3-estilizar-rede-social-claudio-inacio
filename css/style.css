@@ -39,7 +39,6 @@ header{
 	text-align: center;
 	padding: 10px;
 	max-width: 100%;
-	
 }
 img{
 	width: 50px;
@@ -67,7 +66,6 @@ header > a > figure > img{
 		margin: 10px;
 	}
 	
-
 	.profile-data{
 		display: flex;
 		flex-direction: row;
@@ -97,13 +95,13 @@ header > a > figure > img{
 		display: flex;
 		padding: 10px 0px;
 		margin-bottom: 10px;
-		
-	
 	}
+
 	.highlighted-stories > ul > li	{
 		padding: 0px 10px;
 		text-align: center;
 	}
+
 	.highlighted-stories > ul > li > figure > img{
 		border-radius: 100px;
 	}
@@ -135,14 +133,15 @@ header > a > figure > img{
 	}
 
 	main .profile-posts ul li a figure > img{
-		width: 100px;
-		height: 100px;
+		width: 293px;
+		height: 293px;
 		padding: 3px;
 	}
 
 	/*FOOTER*/
 	.footer-nav{
-		margin: 10px 20px;
+		text-align: center;
+		
 	}
 	.footer-nav a{
 		color: black;
@@ -153,11 +152,14 @@ header > a > figure > img{
 	p{
 		font-family:  Helvetica, Arial, sans-serif;
 	}
-	@media(min-width:500px){
 
+	/*VERSÃO DESKTOP*/
+	@media(min-width:500px){
+		body{
+			
+		}
 		.conteiner{
 			max-width: 953px;
-			
 			margin: auto;
 		}
 
